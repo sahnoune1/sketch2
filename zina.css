@@ -1,0 +1,31 @@
+body{
+   display:flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   
+}
+.box{
+    border:1px solid rgb(19, 18, 18);
+    text-align: center;
+    min-width: 0 ;
+    min-height: 0;;
+    display:flex;
+    
+}
+.output{
+    border:1px solid green;
+    display:grid;
+    column-gap: 0px;
+    
+    width: 550px;
+    height: 550px;
+
+    
+}
+.butt{
+    
+    width: 200px;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+}
